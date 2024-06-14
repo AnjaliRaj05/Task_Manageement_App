@@ -47,22 +47,22 @@ const Task = () => {
                     <Link to='/my-tasks' className="absolute top-3 left-3 bg-slate-300 p-2 rounded text-white font-bold hover:opacity-75">Go Back</Link>
                     <div className="flex flex-wrap justify-center items-center">
                         <h2 className="font-bold text-2xl mr-2">Title </h2>
-                        <MdOutlineSubtitles className="fa fa-id-card text-3xl mt-1 text-teal-500 mr-2" />
+                        <MdOutlineSubtitles className="fa fa-id-card text-3xl mt-1 text-blue-500 mr-2" />
                         <span className="text-gray-600 text-xl"> {task.title}</span>
                     </div>
                     <div className="flex flex-wrap justify-center items-center mr-3 mt-3">
                         <h2 className="font-semibold text-2xl mr-2">Priority </h2>
-                        <FaVoteYea className="fa fa-id-card text-3xl mt-1 text-teal-500 mr-2" />
+                        <FaVoteYea className="fa fa-id-card text-3xl mt-1 text-blue-500 mr-2" />
                         <span className={`text-xl font-bold ${task.priority <= 2 ? 'text-red-400' : task.priority === 3 ? 'text-yellow-600' : 'text-green-800'}`}> {task.priority <= 2 ? 'Low' : task.priority === 3 ? 'Medium' : 'High'}</span>
                     </div>
                     <div className="flex flex-wrap justify-center items-center mt-3">
                         <h2 className="font-semibold text-2xl mr-2">Task ID </h2>
-                        <i className="fa fa-id-card text-2xl text-teal-500 mr-2"></i>
+                        <i className="fa fa-id-card text-2xl text-blue-500 mr-2"></i>
                         <span className="text-gray-600 text-xl"> {task._id}</span>
                     </div>
                     <div className="flex flex-wrap justify-center items-center mt-3">
                         <h2 className="font-semibold text-2xl mr-2">Created At</h2>
-                        <MdDateRange className="text-2xl text-teal-500" />
+                        <MdDateRange className="text-2xl text-blue-500" />
                         <span className="text-gray-600 text-xl"> {new Date(task.createdAt).toLocaleString('en-GB')}</span>
                     </div>
                 </div>

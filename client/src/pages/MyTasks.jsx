@@ -54,10 +54,10 @@ const MyTasks = () => {
                         <>
                             <div className="flex items-center justify-center">
                                 <p className="text-3xl text-center font-bold rounded-lg mr-2">There is no tasks...</p>
-                                <BiSad className="text-6xl text-teal-500" />
+                                <BiSad className="text-6xl text-blue-500" />
                             </div>
                             <div className="text-center">
-                                <Link to='/tasks' className="text-xl bg-teal-500 p-3 text-white font-bold rounded hover:opacity-75">Add your first task</Link>
+                                <Link to='/tasks' className="text-xl bg-blue-500 p-3 text-white font-bold rounded hover:opacity-75">Add your first task</Link>
                             </div>
                         </>
                     )}

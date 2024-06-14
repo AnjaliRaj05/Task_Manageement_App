@@ -27,7 +27,7 @@ const SingleTask = ({ task }) => {
                     <span className='mr-2 font-bold'>Priority:</span>
                     <Rating value={task.priority} color={'#14B8A6'} />
                 </div>
-                <Link to={`/tasks/${task._id}`} className='bg-teal-500 text-white rounded-md px-4 py-2 font-bold hover:opacity-80 transition duration-200'>View More</Link>
+                <Link to={`/tasks/${task._id}`} className='bg-blue-500 text-white rounded-md px-4 py-2 font-bold hover:opacity-80 transition duration-200'>View More</Link>
             </div>
             <div className='absolute top-4 right-3'>
                 <CgClose onClick={() => deleteTemp(task._id)} className='text-3xl text-red-600 font-bold cursor-pointer hover:opacity-70' />

@@ -13,7 +13,7 @@ const Header = () => {
     }
 
     return (
-        <nav className="bg-teal-500 p-6">
+        <nav className="bg-gray-800 p-6">
             <div className="container mx-auto flex items-center justify-between flex-wrap ">
                 <Link to='/tasks'>
                     <h2 className="text-white font-bold text-xl mx-4">Task Management</h2>
